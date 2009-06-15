@@ -1,0 +1,16 @@
+PartialAnnotation
+=================
+
+It annotates beggining and end of partial by inserting comment. See example below.
+
+Example
+=======
+<%= render :partial => "/foo" %>
+
+may become:
+
+<!-- begin partial "_foo.html.erb" %>
+  ... contents of foo
+<!-- end partial "_foo.html.erb" %>
+
+Copyright (c) 2009 Hiroshi Saito (yakitara.com), released under the MIT license
