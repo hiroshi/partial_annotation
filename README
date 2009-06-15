@@ -13,8 +13,13 @@ may become:
   ... contents of foo
 <!-- end partial "_foo.html.erb" -->
 
-TODO
+Install
+=======
+ $ script/plugin install git://github.com/hiroshi/partial_annotation.git
+
+Todo
 ====
 * Support templates other than html (e.g. Javascript commnets begin with "//")
+
 
 Copyright (c) 2009 Hiroshi Saito (yakitara.com), released under the MIT license
