@@ -9,8 +9,12 @@ Example
 
 may become:
 
-<!-- begin partial "_foo.html.erb" %>
+<!-- begin partial "_foo.html.erb" -->
   ... contents of foo
-<!-- end partial "_foo.html.erb" %>
+<!-- end partial "_foo.html.erb" -->
+
+TODO
+====
+* Support templates other than html (e.g. Javascript commnets begin with "//")
 
 Copyright (c) 2009 Hiroshi Saito (yakitara.com), released under the MIT license
