@@ -1,7 +1,7 @@
 PartialAnnotation
 =================
 
-A rails plugin which annotates beggining and end of partial by inserting comment. See example below.
+A rails plugin which annotates begnining and end of partial by inserting a pair of comments. See example below.
 
 Example
 =======
